@@ -1,0 +1,38 @@
+{
+  "name": "genpark-neural-garment-drape-virtual-tryon-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Neural garment drape synthesizer simulating fabric physics, body geometry deformation, and photorealistic virtual try-on.",
+  "author": "genpark",
+  "category": "virtual-tryon",
+  "tags": [
+    "yc-2026",
+    "virtual-tryon",
+    "neural-drape",
+    "cloth-simulation",
+    "fashion-ai"
+  ],
+  "inputs": {
+    "user_body_model": {
+      "type": "string"
+    },
+    "garment_texture_url": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "tryon_job_id": {
+      "type": "string"
+    },
+    "fabric_physics_model": {
+      "type": "string"
+    },
+    "wrinkle_micro_crease_accuracy_pct": {
+      "type": "number"
+    },
+    "photorealistic_render_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
